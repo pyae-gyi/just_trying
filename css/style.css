@@ -1,0 +1,156 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#main {
+    padding: 8% 0 6%;   
+    background-color: yellow;
+}
+
+.container-fluid {
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+.text_styling_for_player {
+    display: inline;
+    background-color: yellowgreen;
+}
+
+.h3_font_style {
+    font-family: 'Tektur', cursive;
+}
+/* 
+.title_box {
+    background-color: #88A9C3;
+    
+} */
+
+.title {
+    font-size: 10rem;
+    font-family: 'Lobster', cursive;
+    display: inline;
+    color: #fff;
+    background-color: black;
+    
+}
+
+
+.players_box {
+    padding: 3% 30%;
+    /* background-color: yellowgreen; */
+}
+
+/* .player_one {
+    background-color: bisque;
+} */
+
+/* .player_two {
+    background-color: limegreen;
+} */
+
+.developer_img {
+    border-radius: 100%;
+    width: 40%;
+}
+
+.developer_box {
+    padding: 3% 5%;
+    background-color: black;
+    color: yellow;
+    text-align: left;
+}
+
+.about_developer {
+    padding-right: 10%;
+}
+
+.img_box {
+    text-align: right;
+}
+
+.dice_img {
+    width: 80%;
+}
+
+.emoji {
+    position: absolute;
+    top: 25rem;
+}
+
+.player1_emoji {
+    left: 15.63rem;
+}
+
+.player2_emoji {
+    right: 15.63rem;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.social_box {
+    padding-right: 35%;
+}
+
+.social_icon {
+    padding-right: 5%;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        text-align: center;
+    }
+
+    .title_box {
+        margin-top: 3.125rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .developer_box {
+        text-align: center;
+        padding: 20% 10%;
+    }
+
+    .img_box {
+        text-align: center;
+       
+    }
+
+    .developer_img {
+        width: 30%;
+        padding-bottom: 1rem;
+    }
+
+    .social_box {
+        padding-right: 0;
+    }
+
+    .about_developer {
+        padding-right: 0;
+        padding-bottom: 20%;
+    }
+
+    .emoji {
+        visibility: hidden;
+    }
+
+    .dice_img {
+        padding-top: 1.875rem;
+    }
+
+    .h3_font_style {
+        font-size: 1.5rem;
+    }
+
+    .players_box {
+        padding: 9% 25% 20%;
+    }
+}
